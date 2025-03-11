@@ -633,6 +633,28 @@ button:hover {
 
 /* estilo para el formulario de contacto - contacto */
 
+#contador {
+  font-size: 25px;
+  color: #ffffff;
+  text-align: right;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+#mensaje {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  resize: none;
+}
+
+#mensaje:focus {
+  border-color: #7B92A2;
+}
+
 .container-form {
   width: 100%;
   padding: 20px;
