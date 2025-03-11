@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- google fonts que voy a utilizar para la página -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- font awesome desde el CDN -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- link de mi css -->
+
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <!-- link de mi css responsive -->
+
+    <link rel="stylesheet" href="../css/responsive.css">
+
+    <!-- link de mi script -->
+
+    <script defer src="../js/script.js"></script>
+
+    <title> Contáctanos </title>
+
+    <meta name="description" content="¿Tenés alguna pregunta/consulta/duda? Contactanos y nuestro equipo te atenderá con gusto. Envianos un mensaje o llamanos para más información sobre nuestros calzados importados.">
+    
+    <meta name="keywords" content="contacto, atención al cliente, soporte calzado, ayuda, preguntas calzado importado uruguay, servicio al cliente, consulta ventas">
+    
+    <meta name="author" content="Reset Store">
+
+</head>
+
+<body>
+
+    <!-- banner principal -->
+
+    <header class="header">
+
+        <!-- logo -->
+
+        <div class="menu-contacto container"> 
+            
+            <a href="../index.html"> 
+                <img src="../img/img-logo-reset-store.png" width="185px" alt="Logo de nombre Reset Store, en color blanco que identifica el logotipo de la marca"> <!-- el alt de la img se completa con la descripción más acertada/completa de la img -->
+            </a>
+
+            <!-- menú hamburguesa -->
+
+            <input type="checkbox" id="menu-contacto">
+            <label for="menu-contacto">
+                <img src="../img/img-menu.png" class="menu-icono-contacto" alt="">
+            </label>
+
+            <!-- menú de navegación --> 
+
+            <nav class="navbar">
+
+                <!-- lista desordenada -->
+                
+                <ul>
+                    <li>
+                        <!-- enlace Inicio -->
+                        <a href="../index.html"> Inicio </a>
+                    </li>
+    
+                    <li>
+                        <!-- enlace Tienda -->
+                        <a href="../pages/tienda.html"> Tienda </a>
+                    </li>
+    
+                    <li>
+                        <!-- enlace Nuevos ingresos -->
+                        <a href="../pages/nuevos-ingresos.html"> NUEVOS INGRESOS </a>
+                    </li>
+    
+                    <li>
+                        <!-- enlace Nosotros -->
+                        <a href="../pages/nosotros.html"> Nosotros </a>
+                    </li>
+    
+                    <li>
+                        <!-- enlace Contacto -->
+                        <a href="../pages/contacto.html"> Contacto </a>
+                    </li>
+                </ul>
+
+                <div class="cart-icon-container">
+
+                    <!-- ícono del carrito -->
+                        <a href="../pages/carrito.html">
+                            <i id="cart-icon" class="fas fa-shopping-cart"></i> 
+                        </a>
+                        <span id="cart-count"> 0 </span>
+                </div>
+
+            </nav>
+
+        </div>
+
+        <div class="header-content-contacto container">
+
+            <!-- contenido principal del html -->
+
+            <main>
+
+                <div class="container-form">
+
+                    <div class="info-form">
+
+                        <h1 class="titulo-contacto"> ¡Contactate con nosotros! </h1>
+    
+                        <a href="https://api.whatsapp.com/message/IIT5YAPW5GZEE1?autoload=1&app_absent=0"> <i class="fa fa-phone"> </i> +598 96 930 814 </a>
+    
+                        <a href=""> <i class="fa fa-envelope"> </i> resetstore7@gmail.com </a>
+    
+                        <a href="https://maps.app.goo.gl/jK5aQZffdUs1JpQx5"> <i class="fa fa-map-marked"> </i> Artigas, Uruguay </a>
+    
+                    </div>
+    
+            
+                    <!-- formulario de contacto -->
+
+                    <div class="info-form">
+
+                        <form action="/submit" method="post">
+
+                            <label class="nombre-formulario" for="nombre">Nombre:</label>
+                            <input class="text-area-nombre" type="text" name="" id="">
+                
+                            <label class="email-formulario" for="email">Email:</label>
+                            <input class="text-area-email" type="email" name="" id="">
+                
+                            <label class="mensaje-formulario" for="mensaje">Mensaje:</label>
+                            <textarea class="text-area-mensaje" name="mensaje" id="mensaje"></textarea>
+                
+                            <input class="enviar-formulario" type="submit" value="Enviar">
+    
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </main>    
+        
+        </div>
+
+    </header>
+       
+    <!-- pie de página -->
+
+    <footer class="footer">
+
+        <div class="footer-content container">
+
+            <!-- nuestras redes sociales -->
+
+            <div class="reset-store-social-media">
+                <ul>
+                    <li><a href="https://www.facebook.com/Resetstor3?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.instagram.com/resetstor3/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://api.whatsapp.com/message/IIT5YAPW5GZEE1?autoload=1&app_absent=0" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                </ul>
+            </div>
+    
+            <!-- información de Reset Store -->
+
+            <div class="reset-store-info">
+                <h3> Sobre Nosotros </h3>
+                <ul>
+                    <li><a href="../pages/nosotros.html"> Quiénes somos </a></li>
+                    <li><a href="../pages/contacto.html"> Contacto </a></li>
+                </ul>
+            </div>
+
+            <!-- apartado de otros datos de interés para el usuario -->
+
+            <div class="reset-store-you">
+                <h3> Podría interesarte </h3>
+                <ul>
+                    <li><a href="../pages/tienda.html"> Catálogo </a></li>
+                    <li><a href="../pages/nuevos-ingresos.html"> New arrival </a></li>
+                </ul>
+            </div>
+
+
+            <!-- todos los derechos reservados -->
+
+            <div class="reset-store-copyright">
+                <p>&copy; 2024 Reset Store UY. Todos los derechos reservados. </p>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

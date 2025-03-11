@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- google fonts que voy a utilizar para la página -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- font awesome desde el CDN -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- font awesome -->
+
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+
+    <!-- link de mi css --> 
+
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <!-- link de mi css responsive -->
+
+    <link rel="stylesheet" href="../css/responsive.css">
+
+    <!-- link de mi script -->
+
+    <script defer src="../js/script.js"></script>
+
+    <!-- link de mi biblioteca swiper para carrousels/deslizadores -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    
+    <title> ¿Quiénes somos? </title>
+
+    <meta name="description" content="Conocé nuestra historia y el compromiso con la calidad. Importamos calzados de calidad premium para ofrecerte lo mejor en estilo y confort. Descubrí más sobre nuestra misión y objetivo.">
+    
+    <meta name="keywords" content="acerca de nosotros, historia de la tienda, calzado premium, calzados importados uruguay, compromiso con la calidad, quiénes somos, nuestro equipo">
+    
+    <meta name="author" content="Reset Store">
+
+</head>
+
+<body>
+
+    <!-- banner principal -->
+         
+    <header class="header">
+
+        <!-- logo -->
+
+        <div class="menu-nosotros container"> 
+
+            <a href="../index.html"> 
+                <img src="../img/img-logo-reset-store.png" width="185px" alt="Logo de nombre Reset Store, en color blanco que identifica el logotipo de la marca"> <!-- el alt de la img se completa con la descripción más acertada/completa de la img -->
+            </a>
+
+            <!-- menú hamburguesa -->
+
+            <input type="checkbox" id="menu-nosotros">
+            <label for="menu-nosotros">
+                <img src="../img/img-menu.png" class="menu-icono-nosotros" alt="">
+            </label>
+
+            <!-- menú de navegación --> 
+
+            <nav class="navbar">
+
+                <!-- lista desordenada -->
+                
+                <ul>
+                    <li>
+                        <!-- enlace Inicio -->
+                        <a href="../index.html"> Inicio </a>
+                    </li>
+    
+                    <li>
+                        <!-- enlace Tienda -->
+                        <a href="../pages/tienda.html"> Tienda </a>
+                    </li>
+    
+                    <li>
+                        <!-- enlace Nuevos ingresos -->
+                        <a href="../pages/nuevos-ingresos.html"> NUEVOS INGRESOS </a>
+                    </li>
+    
+                    <li>
+                        <!-- enlace Nosotros -->
+                        <a href="../pages/nosotros.html"> Nosotros </a>
+                    </li>
+    
+                    <li>
+                        <!-- enlace Contacto -->
+                        <a href="../pages/contacto.html"> Contacto </a>
+                    </li>
+                </ul>
+
+                <div class="cart-icon-container">
+
+                    <!-- ícono del carrito -->
+                        <a href="../pages/carrito.html">
+                            <i id="cart-icon" class="fas fa-shopping-cart"></i> 
+                        </a>
+                        <span id="cart-count"> 0 </span>
+                </div>
+
+            </nav>
+
+        </div>
+
+        <div class="header-content-nosotros">
+            <h1> Nosotros </h1>
+        </div>
+
+    </header>
+
+    <!-- contenido principal del html -->
+
+    <main class="texto-nosotros">
+
+        <div>
+            <div class="nosotros-info"> 
+                <h2> ¿Quiénes somos? </h2>
+                <p> Reset Store es una tienda online de calzados importados de Uruguay. </p>
+                <p> Comenzamos nuestra aventura en 2020, con la idea de ofrecer productos de calidad, a precios accesibles, y con un excelente servicio al cliente. </p>
+                <p> <span class="nosotros-info-none"> Hoy, seguimos creciendo y expandiéndonos a distintas partes del país, siempre con el mismo compromiso: brindarte lo mejor. </span> </p>
+            </div>
+            <div class="nosotros-info">
+                <h2> Nuestro objetivo </h2>
+                <p> En Reset Store, nuestro objetivo es ofrecerte una experiencia de compra única. </p>
+                <p> Queremos que te sientas especial cada vez que adquieras uno de nuestros productos. </p>
+                <p> <span class="nosotros-info-none"> La atención al detalle y la calidad son nuestra prioridad. </span> </p>
+            </div>
+            <div class="nosotros-info"> 
+                <h2> Conocé a nuestro equipo </h2>
+                <h3> Renato Serra — Dueño, CEO, encargado de ventas y atención al cliente </h3>
+                <img src="../img/img-renato-serra-ceo.jpg" width="400px" alt="Renato Serra, dueño del emprendimiento">
+                <p> Soy Renato Serra. <span class="nosotros-info-none"> Fundador y responsable de Reset Store. </span> </p>
+                <p> Me encargo de las ventas, de la atención al cliente y me aseguro de que cada pedido te llegue con la mejor calidad <span class="nosotros-info-none"> y puntualidad. </span> </p>
+                <p class="nosotros-info-none"> Mi compromiso es brindarte un servicio cercano y eficiente, porque para mí, cada cliente es una prioridad. </p>
+                <a href="https://www.instagram.com/reser_ssj?igsh=a25yc3B0b3hrMGZw&utm_source=qr" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="nosotros-info">
+                <h3> Belén De Amaral — Encargada de Marketing, <span class="nosotros-info-none"> analista en eCommerce, </span> diseño y desarrollo web </h3>
+                <p> En Reset Store, Belén juega un papel clave en la parte estética y digital de nuestra tienda. </p>
+                <p> Se encarga de nuestra presencia en RRSS, analiza el eCommerce y a su vez también es la diseñadora y desarrolladora web que hace que tu experiencia online sea fluida y atractiva. </p>
+                <p> <span class="nosotros-info-none"> Gracias a su trabajo, podemos ofrecerte una web moderna, fácil de usar y siempre actualizada. </span> </p>
+                <a href="https://www.instagram.com/bertandthediamonds/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </main>
+
+    <!-- pie de página -->
+
+    <footer class="footer">
+
+        <div class="footer-content container">
+
+            <!-- nuestras redes sociales -->
+
+            <div class="reset-store-social-media">
+                <ul>
+                    <li><a href="https://www.facebook.com/Resetstor3?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.instagram.com/resetstor3/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://api.whatsapp.com/message/IIT5YAPW5GZEE1?autoload=1&app_absent=0" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                </ul>
+            </div>
+    
+            <!-- información de Reset Store -->
+
+            <div class="reset-store-info">
+                <h3> Sobre Nosotros </h3>
+                <ul>
+                    <li><a href="../pages/nosotros.html"> Quiénes somos </a></li>
+                    <li><a href="../pages/contacto.html"> Contacto </a></li>
+                </ul>
+            </div>
+
+            <!-- apartado de otros datos de interés para el usuario -->
+
+            <div class="reset-store-you">
+                <h3> Podría interesarte </h3>
+                <ul>
+                    <li><a href="../pages/tienda.html"> Catálogo </a></li>
+                    <li><a href="../pages/nuevos-ingresos.html"> New arrival </a></li>
+                </ul>
+            </div>
+
+            <!-- todos los derechos reservados -->
+
+            <div class="reset-store-copyright">
+                <p>&copy; 2024 Reset Store UY. Todos los derechos reservados. </p>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

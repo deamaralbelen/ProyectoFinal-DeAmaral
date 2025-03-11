@@ -1,0 +1,29 @@
+{
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Adidas Campus Brown",
+        "precio": 1300,
+        "imagen": "img/img-tienda-uno-dos.jpg"
+      },
+      {
+        "id": 2,
+        "nombre": "Nike Dunk SB Grey",
+        "precio": 1450,
+        "imagen": "img/img-tienda-tres-dos.jpg"
+      },
+      {
+        "id": 3,
+        "nombre": "Adidas Campus Black",
+        "precio": 1300,
+        "imagen": "img/img-tienda-dos.jpg"
+      },
+      {
+        "id": 4,
+        "nombre": "Adidas Samba Pink",
+        "precio": 1650,
+        "imagen": "img/img-tienda-cuatro-cuatro.jpg"
+      }
+    ]
+  }
+  

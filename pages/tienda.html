@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- google font ("Bebas Neue") que voy a utilizar para la página -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">   
+    
+    <!-- font awesome desde el CDN -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- link de mi css --> 
+
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <!-- link de mi css responsive -->
+
+    <link rel="stylesheet" href="../css/responsive.css">
+
+    <!-- link de mi script -->
+
+    <script defer src="../js/script.js"></script>
+
+    <title> Tienda </title>
+
+    <meta name="description" content="Explora nuestra tienda online de calzados importados. Tenemos una amplia variedad de sneakers/calzados de la mejor calidad para hombre y mujer. Encontrá el estilo que buscás con precios competitivos.">
+    
+    <meta name="keywords" content="tienda de calzado uruguay, calzado premium, compra zapatos online, calzado de importación, zapatos cómodos y elegantes, compra calzado online uruguay">
+    
+    <meta name="author" content="Reset Store">
+
+</head>
+
+<body>
+
+    <!-- banner principal -->
+
+    <header class="header">
+
+        <!-- logo -->
+
+        <div class="menu-tienda container"> 
+            
+            <a href="../index.html"> 
+                <img src="../img/img-logo-reset-store.png" width="185px" alt="Logo de nombre Reset Store, en color blanco que identifica el logotipo de la marca"> <!-- el alt de la img se completa con la descripción más acertada/completa de la img -->
+            </a>
+
+            <!-- menú hamburguesa -->
+
+            <input type="checkbox" id="menu-tienda">
+            <label for="menu-tienda">
+                <img src="../img/img-menu.png" class="menu-icono-tienda" alt="">
+            </label>
+
+            <!-- menú de navegación --> 
+
+            <nav class="navbar">
+
+                <!-- lista desordenada -->
+                
+                <ul>
+                    <li>
+                        <!-- enlace Inicio -->
+                        <a href="../index.html"> Inicio </a>
+                    </li>
+    
+                    <li>
+                        <!-- enlace Tienda -->
+                        <a href="../pages/tienda.html"> Tienda </a>
+                    </li>
+    
+                    <li>
+                        <!-- enlace Nuevos ingresos -->
+                        <a href="../pages/nuevos-ingresos.html"> NUEVOS INGRESOS </a>
+                    </li>
+    
+                    <li>
+                        <!-- enlace Nosotros -->
+                        <a href="../pages/nosotros.html"> Nosotros </a>
+                    </li>
+    
+                    <li>
+                        <!-- enlace Contacto -->
+                        <a href="../pages/contacto.html"> Contacto </a>
+                    </li>
+                </ul>
+
+                <div class="cart-icon-container">
+
+                    <!-- ícono del carrito -->
+
+                        <a href="../pages/carrito.html">
+                            <i id="cart-icon" class="fas fa-shopping-cart"></i> 
+                        </a>
+                        <span id="cart-count"> 0 </span>
+                </div>
+
+            </nav>
+
+        </div>
+
+        <div class="header-content-tienda container">
+            <h1> Tienda </h1>
+        </div>
+        
+    </header>
+
+    <!-- contenido principal del html -->
+
+    <main class="main-container-tienda">
+
+        <!-- section de la tienda/catálogo -->
+
+        <div class="tienda-content container"> 
+        
+            <div class="catalogo"> 
+        
+                <div class="producto-catalogo">
+                    <img src="../img/img-tienda-uno-tres.jpg" width="200px" alt="Adidas Campus Brown"> 
+                    <h3> Adidas Campus Brown </h3>
+                    <p class="precio-catalogo"> $U 1300 </p> 
+                    <button class="comprar"> Comprar </button> 
+                </div>
+        
+                <div class="producto-catalogo">
+                    <img src="../img/img-tienda-dos-tres.jpg" width="200px" alt="Adidas Campus Black"> 
+                    <h3> Adidas Campus Black </h3> 
+                    <p class="precio-catalogo"> $U 1300 </p> 
+                    <button class="comprar"> Comprar </button>
+                </div>
+        
+                <div class="producto-catalogo"> 
+                    <img src="../img/img-tienda-tres.jpg" width="200px" alt="Nike Dunk SB Grey"> 
+                    <h3> Nike Dunk SB Grey </h3> 
+                    <p class="precio-catalogo"> $U 1450 </p> 
+                    <button class="comprar"> Comprar </button> 
+                </div>
+        
+                <div class="producto-catalogo"> 
+                    <img src="../img/img-tienda-cuatro.jpg" width="200px" alt="Adidas Samba Pink"> 
+                    <h3> Adidas Samba Pink </h3> 
+                    <p class="precio-catalogo"> $U 1650 </p> 
+                    <button class="comprar"> Comprar </button> 
+                </div>
+        
+            </div>
+        
+        </div>
+
+    </main>
+
+    <!-- pie de página -->
+
+    <footer class="footer">
+
+        <div class="footer-content container">
+
+            <!-- nuestras redes sociales -->
+
+            <div class="reset-store-social-media">
+                <ul>
+                    <li><a href="https://www.facebook.com/Resetstor3?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.instagram.com/resetstor3/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://api.whatsapp.com/message/IIT5YAPW5GZEE1?autoload=1&app_absent=0" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                </ul>
+            </div>
+    
+            <!-- información de Reset Store -->
+
+            <div class="reset-store-info">
+                <h3> Sobre Nosotros </h3>
+                <ul>
+                    <li><a href="../pages/nosotros.html"> Quiénes somos </a></li>
+                    <li><a href="../pages/contacto.html"> Contacto </a></li>
+                </ul>
+            </div>
+
+            <!-- apartado de otros datos de interés para el usuario -->
+
+            <div class="reset-store-you">
+                <h3> Podría interesarte </h3>
+                <ul>
+                    <li><a href="../pages/tienda.html"> Catálogo </a></li>
+                    <li><a href="../pages/nuevos-ingresos.html"> New arrival </a></li>
+                </ul>
+            </div>
+
+            <!-- todos los derechos reservados -->
+
+            <div class="reset-store-copyright">
+                <p>&copy; 2024 Reset Store UY. Todos los derechos reservados. </p>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

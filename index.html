@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- google font ("Bebas Neue") que voy a utilizar para la página -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- font awesome desde el CDN -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- link de mi css estilos --> 
+
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!-- link de mi css responsive -->
+
+    <link rel="stylesheet" href="./css/responsive.css">
+
+    <!-- librería externa (sweetalert) -->
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+    <title> Inicio — Reset Store Calzados </title>
+
+    <meta name="description" content="En Reset Store encontrarás calzados de muy buena calidad. Trabajamos con zapatos cómodos para el día a día, para deporte, etc. ¡Visitá nuestra página y enterate de las nuevas tendencias!">
+
+    <meta name="keywords" content="calzado importado uruguay, calzados de marca, zapatos de calidad premium, calzados cómodos, calzado online, zapatos exclusivos">
+
+    <meta name="author" content="Reset Store">
+
+</head>
+
+<body>
+
+    <!-- banner principal -->
+
+    <header class="header">
+
+        <!-- logo -->
+
+        <div class="menu-index container"> 
+
+            <a href="index.html"> 
+                <img src="img/img-logo-reset-store.png" width="185px" alt="Logo de nombre Reset Store, en color blanco que identifica el logotipo de la marca"> <!-- el alt de la img se completa con la descripción más acertada/completa de la img -->
+            </a>
+
+            <!-- menú hamburguesa -->
+
+            <input type="checkbox" id="menu-index">
+            <label for="menu-index">
+                <img src="../img/img-menu.png" class="menu-icono-index" alt="">
+            </label>
+
+
+            <!-- menú de navegación --> 
+
+            <nav class="navbar">
+
+                <!-- lista desordenada -->
+                
+                <ul>
+                    <li>
+                        <!-- enlace Inicio -->
+                        <a href="./index.html"> Inicio </a>
+                    </li>
+    
+                    <li>
+                        <!-- enlace Tienda -->
+                        <a href="./pages/tienda.html"> Tienda </a>
+                    </li>
+    
+                    <li>
+                        <!-- enlace Nuevos ingresos -->
+                        <a href="./pages/nuevos-ingresos.html"> NUEVOS INGRESOS </a>
+                    </li>
+    
+                    <li>
+                        <!-- enlace Nosotros -->
+                        <a href="./pages/nosotros.html"> Nosotros </a>
+                    </li>
+    
+                    <li>
+                        <!-- enlace Contacto -->
+                        <a href="./pages/contacto.html"> Contacto </a>
+                    </li>
+                </ul>
+
+                <!-- ícono del carrito -->
+
+                <div class="cart-icon-container">
+                    <a href="./pages/carrito.html">
+                        <i id="cart-icon" class="fas fa-shopping-cart"></i> 
+                    </a>
+                    <span id="cart-count"> 0 </span>
+                </div>
+                
+            </nav>
+
+        </div>
+
+        <div class="header-content-index container">
+            <h1> RESET STORE </h1>
+            <p> Calzados importados con el toque de calidad que merecés. <span> Siempre buscando lo mejor para que camines con estilo y confort, porque sabemos que cada paso cuenta. </span> </p>
+        </div>
+
+    </header>
+
+    <!-- contenido principal del html -->
+
+    <main>
+
+        <div class="texto-bienvenida">
+            <h1 class="titulo-inicio"> <span> ¡Bienvenidos a Reset Store! </span> </h1>
+            <h2 class="subtitulo-inicio"> Subí tu foto con nuestros calzados y disfrutá de un 5% de descuento en tu próxima compra </h2>
+    
+            <!-- Línea divisoria -->
+
+            <div class="linea"></div>
+
+            <p class="texto"> Con nosotros encontrarás calzados importados de la mejor calidad </p>
+        </div>
+
+    </main>
+
+    <!-- Línea divisoria -->
+
+    <div class="linea"></div>
+
+    <!-- simulador interactivo -->
+
+    <div class="container-simulador">
+        <h1> Simulador de descuentos </h1>
+
+        <label class="producto-simulador" for="producto"> Seleccioná un producto: </label>
+        <select id="producto">
+            <!-- las opciones se van a agregar desde productos.json -->
+        </select>
+
+        <label class="descuento-simulador" for="descuento"> Descuento (%): </label>
+        <input type="number" id="descuento" min="0" max="100" placeholder="Ej: 20">
+
+        <button id="calcular"> Calcular precio </button>
+
+        <h2> Precio final: <span id="precioFinal"> $0 </span></h2>
+
+    </div>
+
+    <!-- Línea divisoria -->
+
+    <div class="linea"></div>
+
+    <!-- section de los calzados destacados -->
+
+    <div class="destacados-content container"> 
+
+        <h2 class="titulo-destacados"> Destacados </h2>
+
+        <div class="destacados"> 
+
+            <div class="producto"> 
+                <img src="img/img-shoe-uno.png" alt="Adidas Campus Negro"> 
+                <h3> Adidas Campus Negro </h3>
+                <p class="precio"> $U 1300 </p> 
+                <button class="comprar"> Comprar </button> 
+            </div>
+    
+            <div class="producto"> 
+                <img src="img/img-shoe-dos.png" alt="Vans KNU Skull Negro"> 
+                <h3> Vans KNU Skull Negro </h3> 
+                <p class="precio"> $U 1600 </p> 
+                <button class="comprar"> Comprar </button> 
+            </div>
+    
+            <div class="producto"> 
+                <img src="img/img-shoe-tres.png" alt="Nike Air Force 1 Blanco"> 
+                <h3> Nike Air Force 1 Blanco </h3> 
+                <p class="precio"> $U 1350 </p> 
+                <button class="comprar"> Comprar </button> 
+            </div>
+    
+            <div class="producto"> 
+                <img src="img/img-shoe-cuatro.png" alt="Adidas Campus Gris"> 
+                <h3> Adidas Campus Gris </h3> 
+                <p class="precio"> $U 1300 </p> 
+                <button class="comprar"> Comprar </button> 
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- pie de página -->
+
+    <footer class="footer">
+
+        <div class="footer-content container">
+
+            <!-- nuestras redes sociales -->
+
+            <div class="reset-store-social-media">
+                <ul>
+                    <li><a href="https://www.facebook.com/Resetstor3?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.instagram.com/resetstor3/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://api.whatsapp.com/message/IIT5YAPW5GZEE1?autoload=1&app_absent=0" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                </ul>
+            </div>
+    
+            <!-- información de Reset Store -->
+
+            <div class="reset-store-info">
+                <h3> Sobre Nosotros </h3>
+                <ul>
+                    <li><a href="pages/nosotros.html"> Quiénes somos </a></li>
+                    <li><a href="pages/contacto.html"> Contacto </a></li>
+                </ul>
+            </div>
+
+            <!-- apartado de otros datos de interés para el usuario -->
+
+            <div class="reset-store-you">
+                <h3> Podría interesarte </h3>
+                <ul>
+                    <li><a href="pages/tienda.html"> Catálogo </a></li>
+                    <li><a href="pages/nuevos-ingresos.html"> New arrival </a></li>
+                </ul>
+            </div>
+
+            <!-- todos los derechos reservados -->
+
+            <div class="reset-store-copyright">
+                <p>&copy; 2024 Reset Store UY. Todos los derechos reservados. </p>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- link del js -->
+
+    <script src="js/script.js" defer></script>
+
+</body>
+</html>

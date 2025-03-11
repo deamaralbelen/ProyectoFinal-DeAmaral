@@ -1,0 +1,331 @@
+/* media query para pantallas chicas (mobile), max-width: 991px */
+
+@media(max-width:991px) {
+
+    .menu-index {
+        padding: 30px;
+    }
+
+    .menu-index label {
+        display: initial;
+    }
+
+    .menu-index .navbar {
+        position: absolute;
+        top: 70%;
+        left: 0;
+        right: 0;
+        background-color: #496274;
+        display: none;
+    }
+
+    .menu-index .navbar ul li {
+        width: 100%;
+    }
+
+    #menu-index:checked ~ .navbar {
+        display: initial;
+    }
+
+    #cart-icon {
+        display: none;
+    }
+
+    #cart-count {
+        display: none;
+    }
+
+    .menu-tienda {
+        padding: -200px;
+    }
+
+    .menu-tienda label {
+        display: initial;
+    }
+
+    .menu-tienda .navbar {
+        position: absolute;
+        top: 70%;
+        left: 0;
+        right: 0;
+        background-color: #496274;
+        display: none;
+    }
+
+    .menu-tienda .navbar ul li {
+        width: 100%;
+    }
+
+    #menu-tienda:checked ~ .navbar {
+        display: initial;
+    }
+
+    .menu-contacto {
+        padding: 30px;
+    }
+
+    .menu-contacto label {
+        display: initial;
+    }
+
+    .menu-contacto .navbar {
+        position: absolute;
+        top: 70%;
+        left: 0;
+        right: 0;
+        background-color: #496274;
+        display: none;
+    }
+
+    .menu-contacto .navbar ul li {
+        width: 100%;
+    }
+
+    #menu-contacto:checked ~ .navbar {
+        display: initial;
+    }
+
+    .menu-nosotros {
+        padding: 30px;
+    }
+
+    .menu-nosotros label {
+        display: initial;
+    }
+
+    .menu-nosotros .navbar {
+        position: absolute;
+        top: 65%;
+        left: 0;
+        right: 0;
+        background-color: #496274;
+        display: none;
+    }
+
+    .menu-nosotros .navbar ul li {
+        width: 100%;
+    }
+
+    #menu-nosotros:checked ~ .navbar {
+        display: initial;
+    }
+
+    .menu-new-arrival {
+        padding: 30px;
+    }
+
+    .menu-new-arrival label {
+        display: initial;
+    }
+
+    .menu-new-arrival .navbar {
+        position: absolute;
+        top: 65%;
+        left: 0;
+        right: 0;
+        background-color: #496274;
+        display: none;
+    }
+
+    .menu-new-arrival .navbar ul li {
+        width: 100%;
+    }
+
+    #menu-new-arrival:checked ~ .navbar {
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+    }
+
+    .header-content-index {
+        padding: 250px 50px;
+        font-size: 15px;
+    }
+
+    .header-content-index span {
+        display: none;
+    }
+
+    .header-content-tienda {
+        padding: 320px 30px;
+    }
+
+    .header-content-tienda h1 {
+        font-size: 75px;
+    }
+
+    .header-content-new {
+        padding: 250px 30px;
+    }
+
+    .header-content-nosotros {
+        padding: 325px 30px;
+    }
+
+    .header-content-contacto {
+        padding: 100px 90px;
+    }
+
+    .nosotros-info img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .nosotros-info-none {
+        display: none;
+    }
+
+    .texto-nosotros {
+        padding: 5px;
+        color: #000000;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .titulo-nuevos-ingresos span {
+        display: none;
+    }
+
+    .subtitulo-nuevos-ingresos {
+        display: none;
+    }
+
+    /* ajustar el contenedor del formulario - contacto */
+
+    .container-form {
+      flex-direction: column; 
+      padding: 36px; 
+      gap: 15px; 
+      margin-top: 40px; 
+    }
+  
+    /* ajustar los títulos */
+
+    .container-form h1 {
+      font-size: 24px; 
+      margin-bottom: 10px;
+    }
+  
+    /* ajustar el tamaño del enlace */
+
+    .container-form a {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .info-form a {
+        display: none;
+    }
+
+    .info-form .text-area-mensaje {
+        width: 50%;
+    }
+  
+    /* ajustar el tamaño de los campos del formulario */
+
+    .container-form form .text-area-nombre,
+    .container-form form .text-area-email {
+      width: 40%; 
+      font-size: 14px; 
+      padding: 10px 10px; 
+      margin-bottom: 20px;
+    }
+  
+    /* ajustar el área de mensaje para pantallas pequeñas */
+
+    .container-form form .text-area-mensaje {
+        width: 100%; 
+        font-size: 14px; 
+        padding: 10px 10px; 
+        margin-bottom: 20px;
+        min-height: 140px;
+        max-height: 150px;
+    }
+  
+    /* ajustar el botón de envío */
+
+    .container-form .enviar-formulario {
+      font-size: 10px; 
+      padding: 12px; 
+      border-radius: 3px; 
+      width: 100%; 
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    /* ajustar el tamaño de las etiquetas de los campos */
+
+    .nombre-formulario,
+    .email-formulario,
+    .mensaje-formulario {
+      font-size: 15px; 
+      color: #fff;
+      justify-content: center;
+    }
+  
+    /* ajustar iconos */
+
+    .container-form a i {
+      margin-right: 10px; 
+    }
+}  
+
+/* media query para pantallas grandes, min-width: 768px */
+
+@media (min-width: 768px) { /* utilizamos flexbox para organizar las secciones en una columna, pero para pantallas grandes (min-width: 768px), las organizamos en una fila horizontal. */
+   
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    /* sección you/social media/info */
+
+    .reset-store-you {
+        margin-bottom: 0;
+    }
+
+    .reset-store-social-media {
+        margin-bottom: 0;
+    } 
+
+    .reset-store-info {
+        margin-bottom: 0;
+    }
+
+    /* sección you ul/social media ul/info ul */
+
+    .reset-store-you ul {
+        display: grid;
+        gap: 20px;
+    }
+
+    .reset-store-info ul {
+        display: flex;
+        gap: 20px;
+    }
+
+    .reset-store-social-media ul {
+        display: flex;
+        gap: 20px;
+    }
+
+    /* sección you a/info a/social media a */
+
+    .reset-store-you a {
+        font-size: 1.2rem;
+    }
+
+    .reset-store-info a {
+        font-size: 1.2rem;
+    }
+
+    .reset-store-social-media a {
+        font-size: 1.2rem;
+    } 
+}
